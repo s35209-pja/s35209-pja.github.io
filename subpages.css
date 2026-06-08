@@ -1,0 +1,189 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    line-height:1.8;
+
+    background:
+    linear-gradient(
+        rgba(0, 0, 1, 0.813),
+        rgba(0, 0, 1, 0.813)
+    ),
+    url("obrazki_witcher/sklep.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+
+header{
+    height:200px;
+    
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+h1{
+    margin-top: 50px;
+    font-family:'Cinzel Decorative';
+    font-size:90px;
+    color:hsl(0,100%,60%);
+}
+
+/* TEXT */
+p:not(footer p, header p, #sizes p){
+    font-family:'MedievalSharp';
+    color:hsl(182, 100%, 75%);
+    font-size:42px;
+    text-align:justify;
+    text-align:center;
+    padding: 0px 0px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* MERCH */
+#merch{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 50px;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+#merch{
+    display:flex;
+    justify-content:space-around;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+#merch img{
+    width:350px;
+    transition:0.3s;
+    border:3px solid transparent;
+}
+
+#merch img:hover{
+    transform:scale(1.08);
+    border-color:hsl(31,100%,50%);
+    border-width:7px;
+}
+
+h3{
+    font-family:'MedievalSharp';
+    font-size:28px;
+    color:hsl(0, 100%, 59%);
+    margin-top:40px;
+    text-align:center;
+}
+
+#sizes{
+font-family:'MedievalSharp';
+    font-size:10px;
+    color:hsla(0, 0%, 87%, 0.712);
+    text-align:center;
+    margin-top:30px;
+}
+
+.order-form{
+    max-width:600px;
+    margin:50px auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea{
+    padding:12px;
+    font-size:16px;
+    font-family:'MedievalSharp';
+}
+
+.order-form button{
+   font-family:'MedievalSharp';
+    padding:15px;
+    background:#8b0000;
+    color:rgb(255, 255, 255);
+    border:none;
+    cursor:pointer;
+}
+label{
+    font-family:'MedievalSharp';
+    color:hsl(180, 31%, 56%);
+    font-size:23px;
+}
+
+.order-form button:hover{
+    font-family:'MedievalSharp';
+    background:#c0392b;
+}
+
+#sklep.bg-section{
+  background: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.484),
+        rgba(0, 0, 0, 0.564)
+        ),
+        url("obrazki_witcher/sklep.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    padding:100px 0;
+    
+}
+
+/* FOOTER */
+footer{
+    font-family:'Cinzel Decorative';
+    color:white;
+    font-size:20px;
+    text-align:center;
+    padding:30px;
+    background:#2d0000;
+    margin-top: 250px;
+}
+
+.footer-nav{
+    font-family:'Cinzel Decorative';
+    font-size:20px;
+    text-align:center;
+    margin:0px 20px;
+}
+
+.footer-nav a{
+    font-family:'Cinzel Decorative';
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    margin:0px 20px;
+    transition:0.3s;
+}
+
+.footer-nav a:hover{
+    color:hsl(31,100%,50%);
+    font-size:23px;
+}
+
+footer p{
+    font-size: 15px;
+    
+
+}
+
+
+
+
+

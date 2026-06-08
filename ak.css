@@ -1,0 +1,161 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    line-height:1.8;
+
+    background:
+    linear-gradient(
+        rgba(0, 0, 1, 0.813),
+        rgba(0, 0, 1, 0.813)
+    ),
+    url("obrazki_witcher/ger.webp");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+
+
+
+header{ 
+    height:200px;
+    background:
+    linear-gradient(
+        rgba(0, 0, 1, 0.591),
+        rgba(0, 0, 1, 0.591)
+    ),
+}
+   
+
+h1{
+
+    font-family:'Cinzel Decorative';
+    font-size:90px;
+    color: rgb(255, 45, 45);
+
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+/* TITLE */
+
+p:not(footer p, header p, #sp p){
+    font-family:'Cinzel Decorative';
+    color:hsl(0, 0%, 90%);
+    font-size:20px;
+    text-align:justify;
+    text-align:center;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#sp p{
+font-family:'Cinzel Decorative';
+    color:hsl(0, 0%, 90%);
+    font-size:20px;
+    text-align:justify;
+    text-align:center;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+
+.slider{
+    width:500px;
+    height:700px;
+    margin: auto;
+    overflow: hidden;
+    border-radius:0px;
+    position:relative;
+}
+
+.slides{
+    display:flex;
+    animation:slide 20s infinite;
+}
+
+.slides img{
+    width:500px;
+    height:700px;
+    display:block;
+    flex-shrink:0;
+}
+
+/* FOOTER */
+footer{
+    font-family:'Cinzel Decorative';
+    color:white;
+    font-size:20px;
+    text-align:center;
+    padding:40px;
+    background:#2d0000;
+    margin-top: 280px;
+    margin-bottom: 0px;
+
+}
+
+.footer-nav{
+    font-family:'Cinzel Decorative';
+    font-size:20px;
+    text-align:center;
+    margin-right: 70px;
+    margin-bottom: 0px;
+}
+
+.footer-nav a{
+    font-family:'Cinzel Decorative';
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    margin:0px 25px;
+    transition:0.3s;
+}
+
+.footer-nav a:hover{
+    color:rgb(255, 110, 110);
+    font-size:23px;
+}
+
+footer p{
+    font-size: 15px;
+    
+
+}
+
+@keyframes slide{
+
+    0%,15%{
+        transform:translateX(0);
+    }
+
+    20%,35%{
+        transform:translateX(-500px);
+    }
+
+    40%,55%{
+        transform:translateX(-1000px);
+    }
+
+    60%,75%{
+        transform:translateX(-1500px);
+    }
+
+    80%,95%{
+        transform:translateX(-2000px);
+    }
+
+    100%{
+        transform:translateX(-2500px);
+    }
+}
+
