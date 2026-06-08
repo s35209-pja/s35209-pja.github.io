@@ -43,7 +43,7 @@ h1{
 
 /* TITLE */
 
-p:not(footer p, header p, #ad p){
+p:not(footer p, header p, #ad p, #end){
     font-family:'Cinzel Decorative';
     color:hsl(214, 32%, 85%);
     font-size:28px;
@@ -81,6 +81,7 @@ footer{
 
     margin-top: 280px;
     margin-bottom: 0px;
+    
 
 }
 
@@ -100,7 +101,7 @@ footer{
     color:white;
     font-size:20px;
     text-decoration:none;
-    margin:10px 40px;
+    margin:0px 0px;
     margin-left:20px;
     margin-right:20px;
     transition:0.3s;
@@ -117,7 +118,12 @@ footer p{
 }
 
 
+#end{
+    font-family: 'Cinzel Decorative';
+    color: rgb(255, 68, 68);
+    text-align: center;
 
-
+    
+}
 
 
